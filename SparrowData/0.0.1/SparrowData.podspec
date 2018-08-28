@@ -16,11 +16,13 @@ Pod::Spec.new do |s|
   # s.public_header_files = "SparrowBusiness/Src/BInterface.h"
   s.requires_arc = true
 
+
   # 商品
   #  s.subspec 'Interface' do |interface|
   #     interface.source_files = 'SparrowBusiness/Src/Interface/**/*.{h,m}'
   #     interface.dependency 'SparrowModel'
   # end
+
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
